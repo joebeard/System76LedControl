@@ -1,0 +1,15 @@
+[Unit]
+
+Description=System76 Keyboard backlight
+
+[Service]
+
+Type=Simple
+
+
+ExecStart=/bin/sh -c "python3 /opt/System76LedControl/led_control.py"
+
+
+[Install]
+
+WantedBy=multi-user.target

@@ -1,0 +1,19 @@
+logging: 
+  level: INFO
+start_colours: 
+  left: [255, 0, 0]
+  center: [255, 255, 255]
+  right: [255, 0, 0]
+monitors:
+  site_health:
+    locations: [left, right]
+    url: https://www.ign.com
+    frequency: 10
+    headers:
+      user-agent: led-control
+  pulse: 
+    locations: center
+    speed: 2
+    a_colour: [255,0,0]
+    b_colour: [0,255,0]
+  

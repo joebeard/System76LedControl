@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+flake8 = "*"
+pep8 = "*"
+pylint = "*"
+autopep8 = "*"
+black = "==19.3b0"
+
+[packages]
+requests = "*"
+
+[requires]
+python_version = "3.7"
